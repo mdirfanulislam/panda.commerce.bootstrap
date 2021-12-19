@@ -1,11 +1,14 @@
 .panda-bg-info{
-    background-color: #fceae8;
+    background-color: #fde3e0;
+}
+.panda-bg{
+    background-image: linear-gradient( to left, #ffbab4 0%, #fb6f62 100% );
 }
 .categories img{
     width: 100px;
 }
 .panda-btn{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    background-image: linear-gradient(to top, #ffbbd6 0%, #f82375 70%);
     color: white;
     border-radius: 8px;
     padding: 9px 25px;

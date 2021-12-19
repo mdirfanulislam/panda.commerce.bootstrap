@@ -10,6 +10,7 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f5cbab46ea.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -54,7 +55,7 @@
                                 <p>This is the headphone in the world for people who just want to waste time in front of
                                     funky world.</p>
                                 <h1>$420</h1>
-                                <button class="panda-btn">Buy Now</button>
+                                <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -70,7 +71,7 @@
                                 <p> This is the best tv in the world for people who just want to waste time in front of
                                     tv.</p>
                                 <h1>$1200</h1>
-                                <button class="panda-btn">Buy Now</button>
+                                <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -84,7 +85,7 @@
                                 <p>This is the best x-box in the world for people who just want to waste time in front
                                     of fake sports.</p>
                                 <h1>$600</h1>
-                                <button class="panda-btn">Buy Now</button>
+                                <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -116,7 +117,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="p-3 border rounded-3 panda-bg-info d-flex align-items-center justify-content-between">
+                    <div class="p-3 border rounded-3 panda-bg d-flex align-items-center justify-content-between">
                         <h1 class="text-white">Bag</h1>
                         <img src="images/categories/bag.png" alt="">
                     </div>
@@ -143,7 +144,7 @@
                             <h5>$120</h5>
                         </div>
                         <div class="ms-3 mb-3">
-                            <button class="panda-btn">Buy Now</button>
+                            <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -157,7 +158,7 @@
                             <h5>$320</h5>
                         </div>
                         <div class="ms-3 mb-3">
-                            <button class="panda-btn">Buy Now</button>
+                            <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -171,7 +172,7 @@
                             <h5>$350</h5>
                         </div>
                         <div class="ms-3 mb-3">
-                            <button class="panda-btn">Buy Now</button>
+                            <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -193,7 +194,7 @@
                                 This content is a little bit longer.</p>
                         </div>
                         <div class="ms-3 mb-3">
-                            <button class="panda-btn">Buy Now</button>
+                            <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -207,7 +208,7 @@
                                 This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="ms-3 mb-3">
-                            <button class="panda-btn">Buy Now</button>
+                            <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -223,7 +224,7 @@
                                 action.</p>
                         </div>
                         <div class="ms-3 mb-3">
-                            <button class="panda-btn">Buy Now</button>
+                            <button class="panda-btn"><i class="fas fa-shopping-cart"></i> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -235,19 +236,22 @@
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
-                <input class="form-control" type="">
-                <br>
-                <button class="panda-btn">SUBMIT</button>
+                <input id="field" class="form-control" type="">
+                <button onclick="handleOnClick()" class="panda-btn">SUBMIT</button>
             </div>
         </section>
     </main>
     <footer class="mt-5">
-        <p class="text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+        <p class="text-center"><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
+
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
